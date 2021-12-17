@@ -1,0 +1,28 @@
+{
+	"name": "rl404/simple-php-cache",
+	"type": "library",
+	"description": "A light, simple but powerful PHP5 Cache Class which uses the filesystem for caching.",
+	"keywords": ["cache", "simple", "filesystem", "json"],
+	"homepage": "https://github.com/cosenary/Simple-PHP-Cache",
+	"license": "proprietary",
+	"authors": [
+		{
+			"name": "Christian Metz",
+			"email": "christian-metz1@gmx.net",
+			"homepage": "http://metzweb.net"
+		},
+		{
+			"name": "Axel Oktavian Antonio",
+			"email": "axel.rl.404@gmail.com"
+		}
+	],
+	"require": {
+		"php": ">=5.2.0",
+		"ext-curl": "*"
+	},
+	"autoload": {
+		"classmap": [
+			"."
+		]
+	}
+}

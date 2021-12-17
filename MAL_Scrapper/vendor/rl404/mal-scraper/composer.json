@@ -1,0 +1,22 @@
+{
+    "name": "rl404/mal-scraper",
+    "description": "Unofficial MyAnimeList API that scrap and parse everything from MyAnimeList web into array and json",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Axel Oktavian Antonio",
+            "email": "axel.rl.404@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4",
+        "rl404/php-simple-html-dom-parser" : "~1.5.0",
+        "rl404/simple-php-cache" : "~1.6.1"
+    },
+    "autoload": {
+        "psr-0": {
+            "MalScraper": "src/"
+        }
+    }
+}
