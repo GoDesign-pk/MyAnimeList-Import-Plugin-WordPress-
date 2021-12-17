@@ -1,0 +1,5 @@
+{
+    "require": {
+        "aalfiann/myanimelist-api-php": "^1.0"
+    }
+}

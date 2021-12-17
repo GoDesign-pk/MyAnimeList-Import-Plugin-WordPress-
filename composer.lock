@@ -1,0 +1,67 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "4e4a5fcc407bc7dd54a48e262a0e9a02",
+    "packages": [
+        {
+            "name": "aalfiann/myanimelist-api-php",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/aalfiann/myanimelist-api-php.git",
+                "reference": "7bb59e0a47c163b7635df4614673af1f0b831f2a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/aalfiann/myanimelist-api-php/zipball/7bb59e0a47c163b7635df4614673af1f0b831f2a",
+                "reference": "7bb59e0a47c163b7635df4614673af1f0b831f2a",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "aalfiann\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "M ABD AZIZ ALFIAN",
+                    "email": "aalfiann@gmail.com",
+                    "homepage": "https://github.com/aalfiann",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A simple MyAnimeList API class to access MyAnimeList to your website PHP.",
+            "keywords": [
+                "anime-api",
+                "api",
+                "manga-api",
+                "myanimelist"
+            ],
+            "support": {
+                "issues": "https://github.com/aalfiann/myanimelist-api-php/issues",
+                "source": "https://github.com/aalfiann/myanimelist-api-php/tree/1.0.1"
+            },
+            "time": "2018-09-17T07:51:45+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.0.0"
+}
